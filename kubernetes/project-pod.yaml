@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: tomcat-demo
+  namespace: tomcat-demo
+spec:
+  containers:
+  - name: mrmoty-demo-ctr
+    image: polinux/stress

@@ -1,0 +1,11 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: tomcat-demo
+spec:
+  selector:
+    app: tomcat
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 3300

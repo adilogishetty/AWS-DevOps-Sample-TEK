@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: tomcat-apache
+  namespace: tomcat-demo
+data:
+  index.html: |
+    welcome !! aditya logishetty
+
